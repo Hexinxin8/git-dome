@@ -1,0 +1,203 @@
+.nav{
+  width:100%;
+  height:40px;
+  background-color: 	#F5F5F5;
+ box-shadow: 27px 2px 2px 0 rgb(0 0 0 / 10%); 
+ 
+}
+.nav-center{
+  width:1190px;
+  height:40px;
+  margin:0 auto;
+}
+.nav-center-left{
+  width:400px;
+  height:40px;
+  font-size:12px;
+  color:#999;
+  line-height: 40px;
+  float: left;
+}
+.nav-center-left a:nth-child(2){
+   color:#000;
+}
+.nav-center-left a:nth-child(3){
+  color:#000;
+  border:1px solid #E5E5E5
+}
+
+.nav-center-left a:nth-child(4){
+  color:#999;
+  margin:0 0 0 4px;
+}
+.nav-center-left a:nth-child(5){
+ padding:0px 15px;
+ color:#Fe8c00;
+}
+.nav-center-left a:nth-child(6){
+  color:#999; 
+} 
+.nav-cent-right{
+
+  width:550px;
+  height:40px;
+  float:right;
+  font-size:12px;
+  color:#999;
+  line-height: 40px;
+  position: relative;
+  
+  
+}
+#dropdown li {
+
+  width: 100px;
+  height: 40px;
+  float:right;
+  display: block;
+  text-align: center;
+  position: relative;
+
+}
+#dropdown li a{
+    width: 100px;
+    height: 40px;
+    float:left;
+    display: block;
+   
+}
+#dropdown li:nth-child(1) dl{
+width:1190px;
+height:270px;
+border: 1px solid #ccc;
+border-top:none;
+position: absolute;
+top:40px;
+left:-1090px;
+}
+#dropdown li:nth-child(1) dl div{
+  margin-top: 30px;
+}
+
+#dropdown li:nth-child(1) dl dd span:hover{
+      color: #fe8c00;
+}
+#dropdown li:nth-child(1) dl dd:nth-child(1){
+     width:260px;
+     height:250px;
+
+     float: left;
+}
+#dropdown li:nth-child(1) dl dd:nth-child(1) span{
+  width:80px;
+  height:25px;
+  display:block;
+  line-height:25px;
+  margin-top: 10px;
+  margin-left:4px;
+  float: left;
+  
+}
+#dropdown li:nth-child(1) dl dd:nth-child(2){
+  width:200px;
+  height:250px;
+ 
+  float: left;
+}
+#dropdown li:nth-child(1) dl dd:nth-child(2) span{
+  width:100px;
+  height:25px;
+  display:block;
+  line-height:25px;
+  margin-top: 10px;
+  float: left;
+  
+}
+#dropdown li:nth-child(1) dl dd:nth-child(3){
+  width:200px;
+  height:250px;
+
+  float: left;
+}
+#dropdown li:nth-child(1) dl dd:nth-child(3) span{
+  width:100px;
+  height:25px;
+  display:block;
+ 
+  margin-top: 10px;
+  float: left;
+  line-height:25px;
+  
+}
+#dropdown li:nth-child(1) dl dd:nth-child(4){
+  width:530px;
+  height:250px;
+  float: left;
+}
+#dropdown li:nth-child(1) dl dd:nth-child(4) span{
+  width:60px;
+  height:40px;
+
+  display:block;
+  
+  /* margin-top:40px; */
+  float: left;
+  margin: 40px 20px;
+  
+}
+#dropdown li:nth-child(1) dl dd:nth-child(4) span img{
+  width: 100%;
+  height:100%;
+}
+#dropdown li:nth-child(2) dl{
+  /* display:block; */
+  width: 100px;
+  height:120px;
+ border: 1px solid #ccc;
+ border-top:none;
+ position: absolute;
+  top:40px;
+left:-1px;
+
+}
+#dropdown li:nth-child(5) dl{
+  /* display:block; */
+  width: 100px;
+  height:160px;
+ border: 1px solid #ccc;
+ border-top:none;
+ position: absolute;
+  top:40px;
+left:-1px;
+
+}
+#dropdown li:nth-child(3) dl
+{
+  width: 100px;
+  height:365px;
+ border: 1px solid #ccc;
+ border-top:none;
+ position: absolute;
+  top:40px;
+  left:-1px;
+ 
+}
+ .displaynone {
+  display: none;
+}
+/* 下拉显示 */
+ .show .displaynone {
+  display: block;
+  background-color: #fff;
+  /* position: absolute; */
+  z-index: 5;
+}
+#dropdown .show:hover {
+  border-bottom:1px solid #ccc;
+  border: 1px solid #ccc;
+  /* color: #fe8c00; */
+
+}
+/* #dropdown .show a:hover {
+  color: #fe8c00;
+}  */

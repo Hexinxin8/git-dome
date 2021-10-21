@@ -1,0 +1,191 @@
+{
+  "id": "2848212",
+  "name": "iconfot",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "24556262",
+      "name": "anchor_point",
+      "font_class": "anchor_point",
+      "unicode": "e90b",
+      "unicode_decimal": 59659
+    },
+    {
+      "icon_id": "24556263",
+      "name": "card",
+      "font_class": "card",
+      "unicode": "e90c",
+      "unicode_decimal": 59660
+    },
+    {
+      "icon_id": "24556264",
+      "name": "christmas_hat",
+      "font_class": "christmas_hat",
+      "unicode": "e90d",
+      "unicode_decimal": 59661
+    },
+    {
+      "icon_id": "24556265",
+      "name": "spray",
+      "font_class": "spray",
+      "unicode": "e90e",
+      "unicode_decimal": 59662
+    },
+    {
+      "icon_id": "24556266",
+      "name": "mail",
+      "font_class": "mail",
+      "unicode": "e90f",
+      "unicode_decimal": 59663
+    },
+    {
+      "icon_id": "24556267",
+      "name": "palette_2",
+      "font_class": "palette_2",
+      "unicode": "e910",
+      "unicode_decimal": 59664
+    },
+    {
+      "icon_id": "24556269",
+      "name": "compass",
+      "font_class": "compass",
+      "unicode": "e911",
+      "unicode_decimal": 59665
+    },
+    {
+      "icon_id": "24556273",
+      "name": "chart",
+      "font_class": "chart",
+      "unicode": "e912",
+      "unicode_decimal": 59666
+    },
+    {
+      "icon_id": "24556274",
+      "name": "cinema",
+      "font_class": "cinema",
+      "unicode": "e913",
+      "unicode_decimal": 59667
+    },
+    {
+      "icon_id": "24556275",
+      "name": "projector",
+      "font_class": "projector",
+      "unicode": "e914",
+      "unicode_decimal": 59668
+    },
+    {
+      "icon_id": "24556276",
+      "name": "chess",
+      "font_class": "chess",
+      "unicode": "e915",
+      "unicode_decimal": 59669
+    },
+    {
+      "icon_id": "24556277",
+      "name": "old_photo_camera",
+      "font_class": "old_photo_camera",
+      "unicode": "e916",
+      "unicode_decimal": 59670
+    },
+    {
+      "icon_id": "24556278",
+      "name": "handshake",
+      "font_class": "handshake",
+      "unicode": "e917",
+      "unicode_decimal": 59671
+    },
+    {
+      "icon_id": "24556296",
+      "name": "monkey",
+      "font_class": "monkey",
+      "unicode": "e918",
+      "unicode_decimal": 59672
+    },
+    {
+      "icon_id": "24556301",
+      "name": "now",
+      "font_class": "now",
+      "unicode": "e919",
+      "unicode_decimal": 59673
+    },
+    {
+      "icon_id": "24556302",
+      "name": "monitor",
+      "font_class": "monitor",
+      "unicode": "e91a",
+      "unicode_decimal": 59674
+    },
+    {
+      "icon_id": "24556303",
+      "name": "coffee",
+      "font_class": "coffee",
+      "unicode": "e91b",
+      "unicode_decimal": 59675
+    },
+    {
+      "icon_id": "24556304",
+      "name": "sleepers",
+      "font_class": "sleepers",
+      "unicode": "e91c",
+      "unicode_decimal": 59676
+    },
+    {
+      "icon_id": "629357",
+      "name": "搜索",
+      "font_class": "sousuo1",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "13645027",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "584249",
+      "name": "右箭头",
+      "font_class": "iconfontjiantou3",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "584254",
+      "name": "箭头",
+      "font_class": "iconfontjiantou",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1110411",
+      "name": "下箭头",
+      "font_class": "jiantou9",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "11372763",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e8c4",
+      "unicode_decimal": 59588
+    },
+    {
+      "icon_id": "15343849",
+      "name": "购物",
+      "font_class": "gouwu",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "19689762",
+      "name": "刷 新",
+      "font_class": "shuaxin_huaban1",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    }
+  ]
+}

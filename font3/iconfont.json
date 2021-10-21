@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6562565",
+      "name": "对错new",
+      "font_class": "duicuo-gai",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "7981433",
+      "name": "对错-02",
+      "font_class": "duicuo-",
+      "unicode": "e7ad",
+      "unicode_decimal": 59309
+    },
+    {
+      "icon_id": "15694547",
+      "name": "icon_对错_对绿",
+      "font_class": "icon_duicuo_duilv",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "21709402",
+      "name": "icon_通用_对错_对",
+      "font_class": "icon_tongyong_duicuo_dui",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    }
+  ]
+}
