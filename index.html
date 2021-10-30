@@ -16,20 +16,93 @@
 <link rel="stylesheet" href="./font2/iconfont.css">
 <script src="js/index.js"></script>
 
+		<script>
+			
+				function GetQueryString(name){
 
+					 
+					var reg=new RegExp("(^|&)"+name+"=([^&]*)(&|$)")
+					var r=window.location.search.substr(1).match(reg);
+					
+					if(r!=null)return decodeURIComponent(r[2]);return null;
+				}
+					
+        
+         
+				function GetPhone(phone){
+          
+					var str=location.search.substr(7);
+					 
+			
+				if(str==""){
+						return null;
+					}
+				
+					if(str!=" "){
+				index=str.indexOf("=")+1		
+				str=str.substring(index,str.length)
+				return str;
+					}
+				
+				
+			
+		
+}
+				</script>
+		
+  
 </head>
 
 <body>
  <!-- 头部导航条 -->
  <div class="nav">
+	 
+
 	<div class="nav-center">
 				 <div class="nav-center-left">
 					 <span class="iconfont icon-xxx">&#xe8c4;</span>
-					 <a href="javascript:;">湖南</a>
-					 <a href="javascript:;">切换城市</a>
-					 <a href="javascript:;">[长沙市]</a>
-					 <a href="javascript:;">立即登录</a>
-					 <a href="javascript:;">注册</a>
+				
+					 <a href="javascript:;" class="aa9">
+					  
+						<script>
+						
+							if(GetQueryString("city")==null){
+							
+								document.write("湖南")
+							}
+							else{
+								var citysub= GetQueryString("city").substr(0,2)
+								document.write(citysub)
+							 }
+						</script>
+					 </a>
+					 <a href="city.html">切换城市
+						 
+					 </a>
+					 <a href="javascript:;" class="aa9">[
+						<script>
+							if( GetQueryString("city")==null){
+								document.write("长沙")
+							}
+							else{
+								var citysub= GetQueryString("city")
+								document.write(citysub)
+							 }
+						</script>]
+					 </a>
+					 <a href="login.html">
+						<script>
+						    if(GetPhone("phone")==null){
+									document.write("登录")
+								}else{
+									var citysub= GetPhone("phone")
+								  document.write(citysub)
+								}
+							
+							 
+							 </script>
+					 </a>
+					 <a href="register.html">注册</a>
 				 </div>
 <div class="nav-cent-right">
 	<ul id="dropdown">
@@ -186,6 +259,7 @@
 
 <!-- 主体部分-->
 <div class="main">
+
 
 
 	<hr />
@@ -742,11 +816,11 @@
 
 				 <img src="./images/1.jpg" alt="" />
 			 </div>
-			 <p>你来了！傻逼</p>
+			 <p>hello 你来了！</p>
 	<div>
 		 <a href="register.html">注册</a>
 	</div>
-	 <div>登录</div>
+	 <div><a href="login.html">登录</a></div>
 	 </div>
 	</div>
 	<div class="tu7">
@@ -1207,34 +1281,13 @@
 				
 				</div>
 			
-			<div class="foot-center-bottom">
 		
-					<div class="foot-center-bottom-left">
-		
-		
-						<p>©美团网团购 meituan.com京ICP证070791号京ICP备10211739号-1</p>
-		<p>广播电视节目制作经营许可证（京）字第03889号</p>
-		<p>食品经营许可证互联网药品信息服务资格证 (京)-经营性-2017-0014</p>
-		
-		
-		<p>医疗器械网络交易服务第三方平台备案：（京）网械平台备字[2018]第00004号</p>
-		
-		<p>平台EDI许可证</p>
-							
-					</div>
-			 
-			 <div class="foot-center-bottom-right">
-					 <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002002052" target="_blank"><img class="beianicon" src="https://p0.meituan.net/travelcube/d0289dc0a46fc5b15b3363ffa78cf6c719256.png">京公网安备 11000002002052号</a><div class="footer-copyright-cert"><a class="bus-license" href="https://zzlz.gsxt.gov.cn/businessCheck/verifKey.do?showType=p&amp;serial=11000020190617184241000003572274-SAIC_SHOW_10002020190618102726868&amp;signData=MEQCIMo7nivRikGQc6WsX/jx0IcZ46irhkjszdhhg4kv17uBAiD78duadRu3XX5WyuE+duSrhPmdVUFgr7cN1iV/WSv4uw==" title="营业执照" target="_blank"><img src="https://p1.meituan.net/travelcube/3e7f8a17e55bace814166b667618b459366061.png@76h_76w_2e"><p>北京三快科技有限公司</p></a><a class="sp-ft sp-ft--record" href="https://beian.miit.gov.cn/?spm=a21bo.21814703.1997523009.40.5af911d9saMbGy#/Integrated/index" title="备案信息" target="_blank">备案信息</a><a class="sp-ft sp-ft--12315" href="http://www.12315.cn/" title="12315消费争议" target="_blank">12315消费争议</a></div>
-		
-				 
-			 </div>
 			 
 		</div>
 			
 			
 			</div>
-		</div>
-		
+	
 
 </body>
 

@@ -3,7 +3,7 @@ window.onload=function(){
   var dropdownLi=dropdown.getElementsByTagName("li");
   var goods=document.getElementById("goods");
   var goodsLi=goods.getElementsByTagName("li");
-  // 获取轮播图左右箭头
+
   for(var i=0;i<dropdownLi.length;i++)
   {
     if(i==3)continue
@@ -71,7 +71,7 @@ window.onload=function(){
 
     lun=setInterval(function(){
       tupian(1);
-    },2000)
+    },2500)
   }
   slideshow();
  

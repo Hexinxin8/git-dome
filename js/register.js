@@ -3,7 +3,7 @@ window.onload=function(){
   var registerSpan=document.querySelectorAll(".display-none")
    var button=document.querySelector("button")
   //获取焦点函数
-  console.log(registerSpan);
+  
   phone[0].onblur=function(){
      var val=phone[0].value;
      if(val=="")
@@ -79,28 +79,44 @@ window.onload=function(){
        case 1:
         
          tipsB[0].style.backgroundColor="red";
+         tipsB[1].style.backgroundColor="";
+         tipsB[2].style.backgroundColor="";
+         tipsB[3].style.backgroundColor="";
          tipsB[0].innerHTML=aStr[0];
+         tipsB[1].innerHTML="";
+         tipsB[2].innerHTML="";
+         tipsB[3].innerHTML="";
+        
          break;
          case 2:
-         tipsB[0].style.backgroundColor="yellow";
+         tipsB[0].style.backgroundColor="";
+         tipsB[2].style.backgroundColor="";
+         tipsB[3].style.backgroundColor="";
          tipsB[1].style.backgroundColor="yellow";
+         tipsB[0].innerHTML="";
          tipsB[1].innerHTML=aStr[1];
-         tipsB[0].innerHTML=aStr[1];
+         tipsB[2].innerHTML="";
+         tipsB[3].innerHTML="";
          break;
          case 3:
-          for(var i=0;i<4;i++)
-            {
-              tipsB[i].style.backgroundColor="green";
-              tipsB[i].innerHTML=aStr[2];
-            }
+        tipsB[0].style.backgroundColor="";
+         tipsB[1].style.backgroundColor="";
+         tipsB[2].style.backgroundColor="green";
+         tipsB[3].style.backgroundColor="";
+         tipsB[0].innerHTML="";
+         tipsB[1].innerHTML="";
+         tipsB[2].innerHTML=aStr[2];
+         tipsB[3].innerHTML="";
           break;
           case 4:
-            for(var i=0;i<4;i++)
-            {
-              tipsB[i].style.backgroundColor="green";
-              tipsB[i].innerHTML=aStr[3];
-            }
-           
+         tipsB[0].style.backgroundColor="";
+         tipsB[1].style.backgroundColor="";
+         tipsB[2].style.backgroundColor="";
+         tipsB[3].style.backgroundColor="green";
+         tipsB[0].innerHTML="";
+         tipsB[1].innerHTML="";
+         tipsB[2].innerHTML="";
+         tipsB[3].innerHTML=aStr[3];
             break;
          
      }
@@ -126,12 +142,12 @@ window.onload=function(){
   }
   var agreement=document.querySelector(".agreement")
   agreement.onclick=function(){
-    if(phone[0].value==""||code.value==""||password==""||password2=="")
+    if(phone[0].value==""||code.value==""||password==""||password2==""||code.value!=registerSpan[1].innerHTML||phone[0].value.length<11||password.value.length<6)
     {
-alert("请先填写注册信息")
+alert("请注意查看注册信息是否正确")
     }
     else{
-      window.location.href="./login.html"
+      window.location.href="./login.html?phone="+phone[0].value+"&pass="+password.value;
     }
   }
 }

@@ -23,4 +23,4 @@ body{
 a:hover{
 	color: #FE8C00;
 }
-input,select,option,textarea{outline: none;}
+input{outline: none;}

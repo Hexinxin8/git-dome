@@ -945,31 +945,6 @@ top: -1px;
  color: #333333;
  margin:4px 0;
  }
- .foot-center-bottom{
- width:100%;
- height:240px;
  
- }
- .foot-center-bottom-left{
- width:50%;
- height:240px;
- 
- float: left;
- 
- 
- }
- .foot-center-bottom-left p{
- display:block;
- font-size:14px;
- margin:10px 10px;
- }
- 
- .foot-center-bottom-right{
- float:right;
- width:200px;
- height:240px;
- padding-right: 20px;
- 
- }
  
 
